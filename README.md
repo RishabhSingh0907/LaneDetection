@@ -5,6 +5,8 @@ This repository contains an implementation of road lane detection using OpenCV. 
 ## Introduction
 Lane detection plays a crucial role in various applications such as autonomous vehicles, advanced driver assistance systems (ADAS), and road safety monitoring. This project aims to detect road lanes using computer vision techniques.
 
+## Input Image
+<img src="original_lane.jpg" alt="Input image" width="600" height="330">
 ## Steps Involved
 The lane detection process consists of the following steps:
 
@@ -23,6 +25,9 @@ The lane detection process consists of the following steps:
 
 ## Results
 The repository includes an output image showing the detected lane lines for comparison. The effectiveness of the lane detection algorithm can be observed through this visual representation.
+
+## Output Image
+<img src="Detected_lines.jpg" alt="Output image" width="600" height="330">
 
 ## Requirements
 The project relies on the following libraries:
