@@ -127,7 +127,7 @@ def standardize_coordinates(lines, center_x, center_y):
     return standardized_lines
 
 # Standardize the coordinates of the detected lines
-standardized_lines = np.array(standardize_coordinates(lines, center_x, center_y))
+standardized_lines = np.array(standardize_coordinates(sorted_lines, center_x, center_y))
 
 # Define a list to store unique slopes
 unique_slopes = []
@@ -147,7 +147,7 @@ for line in standardized_lines:
 
 #-----------------------------------------Draw all lines onto the image-----------------------------------------
 # Check if we got more than one line
-if sorted_lines is not None and len(filtered_lines)>2:
+if filtered_lines is not None and len(filtered_lines)>2:
     allLines = np.zeros_like(img)
 
     for x1, y1, x2, y2 in filtered_lines:
