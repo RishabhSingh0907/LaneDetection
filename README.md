@@ -27,7 +27,7 @@ The lane detection process consists of the following steps:
 The repository includes an output image showing the detected lane lines for comparison. The effectiveness of the lane detection algorithm can be observed through this visual representation.
 
 ## Output Image
-<img src="Detected_lines.jpg" alt="Output image" width="600" height="330">
+<img src="Detected_lanes.jpg" alt="Output image" width="600" height="330">
 
 ## Requirements
 The project relies on the following libraries:
